@@ -6,7 +6,7 @@ ipaddr=$2
 node=$3
 logdir="/var/log/netapp/"
 log="${logdir}sysstat.log"
-msgdircrete="${logdir}ディレクトリを作成しました"
+msgdircreate="${logdir}ディレクトリを作成しました"
 msgargerror="実行例:) $0 <ユーザ名> <cluster_mgmt IP Address> <Node名>"
 msgsshsuccess="接続成功しました"
 cdotcommand="run -node ${node} sysstat -x -c 3"
@@ -15,7 +15,7 @@ cdotcommand="run -node ${node} sysstat -x -c 3"
 #Directoryが存在しない場合は作成する
 if [ ! -d ${logdir} ]
 then
- echo ${msgdircrete}
+ echo ${msgdircreate}
  mkdir ${logdir}
 fi
 #引数が足りない場合はエラー
