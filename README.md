@@ -22,5 +22,5 @@ FlAQCtPciSkwNMWztNjr6ETbbBH4szVx SSH2 RSA Key“
   \#ssh admin\@\<Node Mgmt LIF or Cluster Mgmt LIF IPアドレス\>  
 \※パスワード無しでcDOTにログインできれば完了  
 
-##参考
+## 参考
 http://www.slideshare.net/raihaku/kibanasysstat
