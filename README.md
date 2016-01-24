@@ -1,9 +1,9 @@
 # cdotsysstater
 collection of \[sysstat -x\] command log for NetApp clustered ONTAP
-# Usage
+## Usage
 sysstat_logging.sh \<UserName\> \<cluster_mgmt IP Address\> \<NodeName\>
 
-# 前提条件
+## 前提条件
 1. SSH公開鍵を作成する \(CentOSで実行\)  
  \#ssh\-keygen \-t rsa \-C \"SSH2 RSA Key\“  
  \#cat \/root\/\.ssh\/id_rsa\.pub  
@@ -22,5 +22,5 @@ FlAQCtPciSkwNMWztNjr6ETbbBH4szVx SSH2 RSA Key“
   \#ssh admin\@\<Node Mgmt LIF or Cluster Mgmt LIF IPアドレス\>  
 \※パスワード無しでcDOTにログインできれば完了  
 
-#参考
+##参考
 http://www.slideshare.net/raihaku/kibanasysstat
