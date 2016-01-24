@@ -13,13 +13,13 @@ sysstat_logging.sh \<UserName\> \<cluster_mgmt IP Address\> \<NodeName\>
 \※表示されたキーをcDOTに登録する
 
 2. 公開鍵認証の有効化および公開鍵を登録する (cDOTで実行)
-::>publickey create -username admin -publickey "ssh-rsa AAQCtPciSkwz
-~~~省略~~~
+\:\:\>publickey create -username admin -publickey "ssh-rsa AAQCtPciSkwz
+\~\~\~省略\~\~\~
 FlAQCtPciSkwNMWztNjr6ETbbBH4szVx SSH2 RSA Key“
-::>security login create -username admin -application ssh -authmethod publickey -role admin
+\:\:\>security login create -username admin -application ssh -authmethod publickey -role admin
 
 3. SSHログインテスト(CentOSで実行)
-  ssh admin@<Node Mgmt LIF or Cluster Mgmt LIF IPアドレス>
+  \#ssh admin@<Node Mgmt LIF or Cluster Mgmt LIF IPアドレス>
 \※パスワード無しでcDOTにログインできれば完了
 
 #参考
